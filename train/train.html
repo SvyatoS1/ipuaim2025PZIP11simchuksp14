@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Сторінка Тренування Моделі</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@latest/dist/tf.min.js"></script>
+    <style>
+        body { font-family: sans-serif; margin: 20px; }
+        h1 { color: #2a2a2a; }
+        #log { border: 1px solid #ccc; padding: 10px; height: 400px; 
+               overflow-y: scroll; margin-top: 10px; background: #f9f9f9; }
+    </style>
+</head>
+<body>
+    <h1>Йде тренування моделі...</h1>
+    <p>Будь ласка, зачекайте. Це може зайняти кілька хвилин. Не закривайте цю вкладку.</p>
+    <p>Після завершення браузер автоматично запропонує завантажити 2 файли.</p>
+
+    <div id="log">Статус: Очікування...<br></div>
+
+    <script src="train.js"></script>
+</body>
+</html>

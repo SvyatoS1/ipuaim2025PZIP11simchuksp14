@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Welcome to GraphDetector</title>
+  
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="instruction.css">
+
+</head>
+<body>
+    <nav
+        class="navbar navbar-expand-sm navbar-light bg-light"
+    >
+        <div class="container">
+            <a class="navbar-brand" href="index.html">GraphDetector</a>
+            <button
+                class="navbar-toggler d-lg-none"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapsibleNavId"
+                aria-controls="collapsibleNavId"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+            >
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavId">
+                <ul class="navbar-nav me-auto mt-2 mt-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html" aria-current="page"
+                            >Home
+                            <span class="visually-hidden">(current)</span></a
+                        >
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="instruction.html">How to use</a>
+                    </li>
+                </ul>
+                
+            </div>
+        </div>
+    </nav>
+    <div class="main-content">
+      <div class="content-container">
+        <h1>Welcome to <span>GraphDetector</span></h1>
+        <p>
+          We hope it will help you successfully identify the class of your graph.  
+          Follow these simple steps to get started:
+        </p>
+        <ol>
+          <li>
+            First, load a file in the <strong>Drag & Drop</strong> area.  
+            You can either drag a file from your folder or simply click on 
+            <span class="highlight">browse</span>.
+          </li>
+          <li>
+            Then press the <span class="highlight">Start</span> button and wait for the result.
+          </li>
+          <li>
+            See the result!
+          </li>
+        </ol>
+
+        <h2>Which pictures <span>best</span> to use?</h2>
+        <p>The reference image of the graph should show only
+           a single clear graph on a plain white background.
+            The graph must be complete and centered, with all
+            its nodes and edges fully visible. There should be
+            no extra elements such as formulas, text, labels,
+            grids, or watermarks overlapping the graph.
+            The lines and structure of the graph should be sharp
+            and easy to see, without blur or distortion.
+            The focus must remain only on the graph itself.
+         </p>
+          <img 
+          src="graph_pics/cubic.png" 
+          alt="Etalon image of graph"
+          height="500px"
+          width="500px"
+          >
+          <p><i>Etalon image of cubic function graph</i></p>
+      </div>
+    </div>
+</body>
+</html>
